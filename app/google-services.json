@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "566791841751",
+    "project_id": "baitap4thltdd",
+    "storage_bucket": "baitap4thltdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566791841751:android:6507252a2833c8eb67cd92",
+        "android_client_info": {
+          "package_name": "com.example.baitap4_thltdd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566791841751-2jaq522vk1rfj9dqq53e5cieviu6m12i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC168JZtjW0PvVnsZNuT-0ftzT92F0gNrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566791841751-2jaq522vk1rfj9dqq53e5cieviu6m12i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

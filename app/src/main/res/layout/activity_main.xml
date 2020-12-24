@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:drawableLeft="@drawable/ic_smartphone"
+        android:text="Đăng nhập bằng Số điện thoại"
+        android:backgroundTint="#00b067"
+        style="@style/btn_login">
+    </Button>
+    <Button
+        android:drawableLeft="@drawable/ic_facebook_circular_logo"
+        android:text="Đăng nhập bằng Facebook"
+        android:backgroundTint="#4b6ea8"
+        style="@style/btn_login">
+    </Button>
+    <Button
+        android:drawableLeft="@drawable/ic_google_plus"
+        android:text="Đăng nhập bằng Google"
+        android:backgroundTint="#e66754"
+        style="@style/btn_login">
+    </Button>
+    <Button
+        android:drawableLeft="@drawable/ic_apple"
+        android:text="Đăng nhập bằng Apple"
+        android:textColor="@color/black"
+        android:backgroundTint="#fff"
+        style="@style/btn_login">
+    </Button>
+    <TextView
+        android:background="@drawable/hyperlink"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/white"
+        android:text="Hoặc đăng nhập bằng tài khoản khác"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/edt_email"
+        android:drawablePadding="15dp"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edt_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_pass"
+        android:textColor="@color/white"
+        android:drawablePadding="15dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:hint="Password"
+        android:background="@drawable/edt_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn_login"
+        android:textColor="@color/black"
+        android:text="Đăng nhập"
+        android:backgroundTint="#fff"
+        style="@style/btn_login">
+    </Button>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/white"
+        android:background="@drawable/hyperlink"
+        android:layout_gravity="center"
+        android:text="Quên mật khẩu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="11dp"
+        android:text="Chúng tôi không sử dụng thông tin của bạn với bất kỳ mục đích nào"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:textSize="11dp"
+        android:textColor="@color/white"
+        android:text="Bằng cách đăng nhập hoặc đăng ký, bạn đồng ý với chính sách của Foody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+</LinearLayout>
